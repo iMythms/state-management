@@ -1,4 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
-	margin: 0;
+	margin: 0 auto;
 	box-sizing: border-box;
+}
+
+div {
+	height: 100dvh;
+}
+
+h1 {
+	margin: 0;
+}
+
+.light {
+	background-color: #ffffff; /* white background */
+	color: #333333; /* darker text for contrast */
+	border-color: #dddddd; /* light grey borders */
+	font-family: 'Arial', sans-serif;
+}
+
+.dark {
+	background-color: #111111; /* dark background */
+	color: #ecf0f1; /* light text for contrast */
+	border-color: #111111; /* slightly darker border for depth */
+	font-family: 'Arial', sans-serif;
+}
+
+button {
+	border: none;
+	border-radius: 6px;
+	padding: 4px 12px;
+	font-family: 'Arial', sans-serif;
 }
